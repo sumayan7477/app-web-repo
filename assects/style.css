@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-attachment: fixed;
+    
+    
+}
+
+nav>div{
+     box-shadow: 2px -3px 10px rgb(26, 24, 24);
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     position: fixed;
+     overflow: hidden;
+     height: 70px;
+     background:white;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.links a{
+     text-decoration: none;
+     font-size: 20px;
+     color: rgb(129,64,150);
+
+}
+
+
+/* ------------------navbare-ends ----------------*/
+
+.first-section{
+    background-image: url(https://infomahbub.000webhostapp.com/apps/images/home-bg-img.png
+    );
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+.first-section>div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.intro{
+        width: 50%;
+    }
+
+.intro h1{
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+}
+.show{
+    color: rgb(247,60,152);
+}
+
+.intro p{
+    color: rgb(102,102,131);
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+ .button{
+    height: 45px;
+    color: aliceblue;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-image:linear-gradient(to right,rgb(129,64,150),rgb(247,60,152)) ;
+
+}
+
+.img img{
+    width:450px;
+}
+.img{
+    position: absolute;
+    animation: down-up 5s linear infinite;
+    right: 100px;
+    bottom: 0;
+}@keyframes down-up {
+    0%,100%{
+        bottom: 0;
+    }
+
+    50%{
+        bottom: 50px;
+    }
+}
+
+
+/* -------------card-section------------------ */
+.section{
+     background-color: rgb(249,249,249);
+}
+
+.cont{
+    width: 80%;
+    margin: 0px auto;
+    height: 700px;
+   
+}
+
+.heading2{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(129,64,150);
+    margin: 30px 0 50px 0;
+   
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    padding: 20px;
+    
+}
+
+.card{
+    margin: 20px;
+    border: 0.5px solid rgb(199, 194, 201) ;
+    height: 460px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px rgb(176, 184, 187);
+
+}
+
+.card-img img{
+    
+}
+
+.card-detils{
+    text-align: center;
+    margin-top: 30px;
+}
+.card-detils h3{
+ color: rgb(51,64,97);
+ font-size: 25px;
+ margin-bottom:20px ;
+}
+
+.card-detils p{
+    color: rgb(102,107,116);
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.card-detils button{
+    height: 40px;
+    width: 140px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 17px;
+    background-image:linear-gradient(to right,rgb(129,64,150),rgb(247,60,152));
+   color: white;
+   font-size: 17px;
+}
+
+/* -------------about-section---------------- */
+
+.about{
+    width: 100%;
+    background-image: url('images/about-bg.png');
+    background-size: cover;
+    background-position:top ;
+    height: 700px;
+}
+
+.head h1{
+    text-align: center;
+    font-size: 35px;
+    color:rgb(190,57,148);
+}
+
+.coloum{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+}
+/* 
+ >img{
+    width: 600px;
+} */
+.aboutimg{
+    width: 50%;
+}
+
+.aboutimg>img{
+    width: 530px;
+    margin-top: 50px;
+}
+
+.contant{
+    padding: 20px;
+}
+
+.contant h2{
+   
+    color: rgb(102,107,116) ;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+
+
+}
+.contant p{
+    font-size: 20px;
+    color: rgb(102,107,116);
+    margin-bottom: 20px;
+}
+
+
+
+/* -------------------subscribe--------------- */
+
+.subscribe{
+    height: 300px;
+    width: 100%;
+    background-image: url('images/subscribe-bg.png');
+
+}
+
+.subscribe>div{
+    width: 50%;
+    margin: 0px auto;
+    height: 300px;
+}
+
+
+.subscribe> div h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0 0px 0;
+    padding: 30px;
+}
+
+
+.subscribe >div p{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.subs-from{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid white;
+    height: 55px;
+    border-radius: 25px;
+    justify-content: space-between;
+}
+
+.subs-from div input{
+    width: 500px;
+    height: 45px;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.subs-from div input::placeholder{
+
+    color: white;
+}
+.subs-from div button{
+    width:150px;
+    height: 42px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+/* -------------------review-section------------------------- */
+
+
+
+.review-head{
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+ .img-icon >div >img{
+    width: 40%;
+    
+    border-radius: 50px;
+}
+
+.img-icon >div{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.img-icon{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    height: 70px;
+    align-items: flex-end;
+}
+
+.img-icon i{
+    color: rgb(247,60,152);
+    font-size: 60px;
+    width: 20%;
+    opacity: 0.3;
+    margin-bottom: 30px;
+}
+
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 370px;
+    padding: 10px;
+}
+
+.box h3{
+    font-size: 30px;
+    color: rgb(247,60,152);
+     margin-bottom: -15px;
+}
+
+.box i{
+    color: rgb(129,64,150);
+   
+}
+
+.box p{
+    color: rgb(111,111,111);
+     margin-top: -15px;
+     font-size: 20px;
+}
+
+
+/* -------------------------prising-section---------------------- */
+
+.prise-card{
+    width: 40%;
+    padding: 20px;
+   
+}
+
+
+.prise-card:hover{
+    border: 2px solid  rgb(247,60,152) ;
+}
+
+.prise-card h2{
+    font-size: 40px;
+    color:rgb(129,64,150) ;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.prise-card ul{
+    list-style-type: none;
+}
+
+.prise-card ul li {
+    margin: 5px 0 5px 0;
+    color: rgb(111,111,111);
+   
+    font-size: 20px;
+}
+
+.prise-card ul li i{
+    margin: 0 10px 0 10px
+}
+
+.green-tic i{
+    color: rgb(8, 196, 8);
+    font-size: 30px;
+}
+
+.red-tic i{
+    color: rgb(247, 4, 4);
+    font-size: 30px;
+}
+
+.prise-card button{
+    margin: 0px auto;
+}
+
+
+/* ------------------------contect-section---------------------- */
+
+
+
+.cont-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+
+.cont-area div{
+    width: 50%;
+    height: 650px;
+
+}
+
+.cont-area div img{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.cont-area div h2{
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+    color:rgb(129,64,150) ;
+
+
+}
+
+.cont-area >div input{
+    border: none;
+    border-bottom: 1px solid rgb(204,204,204);
+    width: 100%;
+}
+
+
+.cont-area >div textarea{
+    border: none;
+    border-bottom: 1px solid rgb(204,204,204);
+    width: 100%;
+    height: 120px;
+}
+
+
+.from-card div{
+    width: 100%;
+}
+
+.from-card{
+    padding: 30px;
+}
+
+.from-card div label{
+    color: rgb(102,102,102) ;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
+/* -------------------------footer-area------------------ */
+
+
+.footer{
+    display: flex;
+    margin-top: 40px;
+    background-image: url('images/footer-bg.png');
+    height: 400px;
+    background-size:cover;
+    padding: 50px;
+}
+
+.footer div{
+    width: 25%;
+    margin-top: 20px;
+}
+
+.footer div h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid white;
+    width: 70%;
+    padding: 10px;
+}
+
+.footer>div p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 80%;
+    line-height: 30px;
+}
+
+.footer div ul{
+    list-style-type: none;
+    
+
+}
+
+.footer div ul li{
+    margin: 15px 0 0 0;
+}
+
+.footer div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.address div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+address div i{
+    font-size: 50px;
+   
+    
+}
+
+.icon{
+     color:rgb(247,60,152) ;
+     padding: 15px;
+     border: 1px solid rgb(255, 255, 255);
+     background-color: white;
+     border-radius: 40px;
+}
